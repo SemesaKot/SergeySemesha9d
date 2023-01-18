@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+int main()
+//{
+//
+//	int Sergey = 32, Barak = 20;
+//
+//	if (Sergey > 0 && Barak < 30)
+//	{
+//
+//		cout << "Sergeys age is ok" << endl;
+//
+//	}
+//
+//	else cout << "wrong Sergeys age" << endl;
+//
+//	if (Sergey > 0 && Sergey < 10)
+//
+//	{
+//
+//		cout << "Sergeys age is ok" << endl;
+//	}
+//
+//	else cout << "wrong Barak age" << endl;
+//
+//}
+//{
+// int catage, dogage;
+//cin >> catage >> dogage;
+//if (catage > 0 && < 20) { cout << "cat is cool"; };
+//else cout << "cat is too old";
+//if (dogage > 0 && < 20) { cout << "dog is cool"; };
+//else cout << "dog is too old";
+//}
+{
+	string parole = "6666", minarelli;
+	cout << "enter:";
+	cin >> minarelli;
+	if (minarelli == parole)
+	{
+		cout << "Forsi forsi" << endl;
+	}
+	else cout << "nav forsi("<<endl;
+
+
+
+
+}
