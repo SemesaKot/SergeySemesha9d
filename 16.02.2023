@@ -1,0 +1,66 @@
+#include <iostream>
+#include<vector>
+using namespace std;
+int main()
+/*
+{
+	vector<int> sk{ 1,2,3,1,2 };
+	if (sk[0] == 1) cout << "pirma vieta ir skaitlis 1"<<endl;
+	if (sk[1] == 1) cout << "otra vieta ir skaitlis 1" << endl;
+	if (sk[2] == 1) cout << "tresa vieta ir skaitlis 1" << endl;
+	if (sk[3] == 1) cout << "ceturta vieta ir skaitlis 1" << endl;
+	if (sk[4] == 1) cout << "piekta vieta ir skaitlis 1" << endl;
+	if (sk[0] == 4) cout << "pirma vieta ir skaitlis 4" << endl;
+	if (sk[1] == 4) cout << "otra vieta ir skaitlis 4" << endl;
+	if (sk[2] == 4) cout << "tresa vieta ir skaitlis 4" << endl;
+	if (sk[3] == 4) cout << "ceturta vieta ir skaitlis 4" << endl;
+	if (sk[4] == 4) cout << "piekta vieta ir skaitlis 4" << endl;
+}
+*/
+
+/*
+{
+	string atb,atb1;
+	vector<string>sk{ "+1","+44","+86","+91","+1","+61"};
+	vector<string>vl{ "USA","UK","CHINA","INDIA","CANADA","AUSTRALIA" };
+	cout << "ievadiet valsts kodu(ar plusu)" << endl;
+	cin>>atb;
+	if (sk[0] == atb) { cout << vl[0] << endl; };
+	if (sk[1] == atb) { cout << vl[1] << endl; };
+	if (sk[2] == atb) { cout << vl[2] << endl; };
+	if (sk[3] == atb) { cout << vl[3] << endl; };
+	if (sk[4] == atb) { cout << vl[4] << endl; };
+	if (sk[5] == atb) { cout << vl[5] << endl; };
+	if (sk[0] != atb && sk[1] != atb && sk[2] != atb && sk[3] != atb && sk[4] != atb && sk[5] != atb) cout << "nav baze"<<endl;
+	cout << "ievadiet savu numuru(cipari)" << endl;
+	cin >> atb1;
+	cout << atb << atb1;
+
+}
+*/
+/*
+{
+	vector<string>atz{ "3","8","7","4" };
+	vector<string>vard{ "Anna","Antons","Vlads","Artem" };
+	string atb;
+	cout << "Ievadiet atzimi"<<endl;
+	cin >> atb;
+	if (atb == atz[0]) { cout << vard[0] << endl; };
+	if (atb == atz[1]) { cout << vard[1] << endl; };
+	if (atb == atz[2]) { cout << vard[2] << endl; };
+	if (atb == atz[3]) { cout << vard[3] << endl; };
+	if (atb != atz[0] && atb != atz[1] && atb != atz[2] && atb != atz[3]) { cout << "nav baze"; };
+}
+*/
+/*
+{
+	vector<int>prm{ 2,3,5,7 };
+	cout << "Pirmskaitli un tas 2 pakape:" << endl;
+	cout << prm[0] << " " << prm[0] * prm[0] << endl << prm[1] << " " << prm[1] * prm[1] << endl << prm[2] << " " << prm[2] * prm[2] << endl << prm[3] << " " << prm[3] * prm[3] << endl;
+}
+*/
+
+{
+	vector<string>svt{ "skolas diena","valsts proklamesanas diena"};
+
+}
