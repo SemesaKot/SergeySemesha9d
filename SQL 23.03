@@ -1,0 +1,66 @@
+-- create
+/*CREATE TABLE EMPLOYEE (
+  Id INTEGER PRIMARY KEY,
+  kurjera_v TEXT NOT NULL,
+  kurjera_u TEXT NOT NULL,
+  rajons TEXT NOT NULL,
+  vecums INTEGER NOT NULL,
+  dzimums TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (1, 'Alla', 'Kotova','Rīga',32,'sieviete');
+INSERT INTO EMPLOYEE VALUES (2, 'Vlads', 'Krastiņš','Rīga',45,'virietis');
+INSERT INTO EMPLOYEE VALUES (3, 'Grigorijs', 'Galds','Ogres rajons',33,'virietis');
+INSERT INTO EMPLOYEE VALUES (4, 'Kira', 'Klimova','Saulkrastu novads',56,'sieviete');
+
+-- fetch 
+SELECT * FROM EMPLOYEE ;
+SELECT * FROM EMPLOYEE where vecums>45 ;
+SELECT * FROM EMPLOYEE where rajons='Rīga' and dzimums ='sieviete' ;
+SELECT * FROM EMPLOYEE where rajons='Ogres rajons' and dzimums ='virietis' ;
+SELECT AVG(vecums)
+FROM EMPLOYEE;
+
+SELECT MAX(vecums)
+FROM EMPLOYEE;
+
+SELECT MIN(vecums)
+FROM EMPLOYEE;
+*/
+CREATE TABLE EMPLOYEE2 (
+  Id INTEGER not null,
+  first_name TEXT NOT NULL,
+  last_name TEXT NOT NULL,
+  customer_id INTEGER NOT NULL,
+  customer_name TEXT NOT NULL,
+  city TEXT NOT NULL
+  );
+  
+  INSERT INTO EMPLOYEE2 VALUES (1,'Thomas(Neo)','Anderson',1,'Jewelry Store','London');
+  INSERT INTO EMPLOYEE2 VALUES (1,'Thomas(Neo)','Anderson',2,'Bakery','London');
+  INSERT INTO EMPLOYEE2 VALUES (1,'Thomas(Neo)','Anderson',3,'Cafe','London');
+  INSERT INTO EMPLOYEE2 VALUES (1,'Thomas(Neo)','Anderson',4,'Restaurant','London');
+  INSERT INTO EMPLOYEE2 VALUES (2,'Agent','Smith',1,'Jewelry Store','Cardiff');
+  INSERT INTO EMPLOYEE2 VALUES (2,'Agent','Smith',2,'Bakery','Cardiff');
+  INSERT INTO EMPLOYEE2 VALUES (2,'Agent','Smith',3,'Cafe','Cardiff');
+  INSERT INTO EMPLOYEE2 VALUES (2,'Agent','Smith',4,'Restaurant','Cardiff');
+  
+  SELECT * FROM EMPLOYEE2;
+  
+  SELECT * FROM EMPLOYEE2 where customer_name='Bakery';
+  
+  SELECT * FROM EMPLOYEE2 where customer_id=4 and last_name='Anderson';
+  
+  SELECT AVG(customer_id)
+FROM EMPLOYEE2;
+  SELECT MIN(customer_id)
+FROM EMPLOYEE2;
+  SELECT MAX(customer_id)
+FROM EMPLOYEE2;
+ 
+  SELECT * FROM EMPLOYEE2;
+  
+  SELECT * FROM EMPLOYEE2 where city='London';
+  SELECT * FROM EMPLOYEE2 where first_name='Agent';
+  
